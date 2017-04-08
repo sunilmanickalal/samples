@@ -10,6 +10,8 @@ import com.sunil.sources.sort.Sorting;
 public class App {
 
 	public static void main(String[] args) {
+		System.out.println("Sorting App");
+		System.out.println("===========");
 		List<Person> plist = loadPersonObjects();
 		System.out.println("Before Sorting");
 		displayPersonData(plist);
