@@ -6,6 +6,10 @@ package com.sunil.sources;
 public class Test {
 
     public static void main(String[] args) {
+        message();
+    }
+
+    private static void message() {
         System.out.println("This is a simple 1 line test");
     }
 }
